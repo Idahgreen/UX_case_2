@@ -24,6 +24,24 @@ h1 {
     margin: 5vw 13vw;
 }
 
+#expmap_img {
+    background-image: url(images/experience.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40vw;
+    width: 40vw;
+    margin: 5vw 30vw;
+}
+
+#mood_img {
+    background-image: url(images/moodboard.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width: 75vw;
+    margin: 5vw 13vw;
+}
+
 #brugerchart1 {
     display: flex;
     flex-wrap: wrap;
