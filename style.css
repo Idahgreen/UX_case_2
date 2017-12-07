@@ -42,6 +42,8 @@ h1 {
 	margin: 5vw 13vw;
 }
 
+/****** brugerchart *****/
+
 #brugerchart1 {
 	display: flex;
 	flex-wrap: wrap;
@@ -163,6 +165,9 @@ h1 {
 	background-position: center;
 }
 
+
+/**** storyboard*****/
+
 .storyboard_content {
 	display: flex;
 	flex-wrap: wrap;
@@ -190,4 +195,21 @@ h1 {
 	width: 40vw;
 	height: auto;
 	background-position: center;
+}
+
+/***** scrum *****/
+
+.scrum_content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2vw 5vw;
+	justify-content: center;
+	text-align: center;
+}
+
+.scrum {
+	width: 40vw;
+	flex-basis: 300px;
+	flex-grow: 1;
+
 }
