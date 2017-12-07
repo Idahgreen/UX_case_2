@@ -1,164 +1,193 @@
 body {
-    margin: 0;
+	margin: 0;
 }
 
 h1 {
-    text-align: center;
+	text-align: center;
 }
 
 #splash {
-    background-image: url(images/Screen%20Shot%202017-12-06%20at%2011.47.45.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 55vw;
-    width: 75vw;
-    margin: 2vw 13vw;
+	background-image: url(images/Screen%20Shot%202017-12-06%20at%2011.47.45.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 55vw;
+	width: 75vw;
+	margin: 2vw 13vw;
 }
 
 #bmc_img {
-    background-image: url(images/bmp.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 70vw;
-    width: 75vw;
-    margin: 5vw 13vw;
+	background-image: url(images/bmp.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 70vw;
+	width: 75vw;
+	margin: 5vw 13vw;
 }
 
 #expmap_img {
-    background-image: url(images/experience.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 40vw;
-    width: 40vw;
-    margin: 5vw 30vw;
+	background-image: url(images/experience.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 40vw;
+	width: 40vw;
+	margin: 5vw 30vw;
 }
 
 #mood_img {
-    background-image: url(images/moodboard.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 50vw;
-    width: 75vw;
-    margin: 5vw 13vw;
+	background-image: url(images/moodboard.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 50vw;
+	width: 75vw;
+	margin: 5vw 13vw;
 }
 
 #brugerchart1 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2vw 5vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2vw 5vw;
 }
 
 #brugerchart2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2vw 5vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2vw 5vw;
 }
 
 #brugerchart3 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2vw 5vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2vw 5vw;
 }
 
 #brugerchart4 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2vw 5vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2vw 5vw;
 }
 
 .brugerchart1 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/1.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
 }
 
 .brugerchart2 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
 }
 
 .brugerchart3 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/3.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
 }
 
 .brugerchart4 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/4.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
 }
 
 
 .brugerchart5 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/5.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/5.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
 }
 
 .brugerchart6 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/6.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/6.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
 }
 
 .brugerchart7 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/7.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/7.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
 }
 
 .brugerchart8 {
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    background-image: url(images/8.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 40vw;
-    background-position: center;
+	justify-content: center;
+	align-content: center;
+	flex-basis: 100px;
+	flex-grow: 1;
+	background-image: url(images/8.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40vw;
+	background-position: center;
+}
+
+.storyboard_content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2vw 5vw;
+	justify-content: center;
+	text-align: center;
+}
+
+.storyboard1 {
+	width: 40vw;
+	flex-basis: 300px;
+	flex-grow: 1;
+
+}
+
+#storyboard img {
+	width: 100%;
+	height: auto;
+}
+
+.storyboard2 {
+	flex-basis: 300px;
+	flex-grow: 1;
+
+	width: 40vw;
+	height: auto;
+	background-position: center;
 }
