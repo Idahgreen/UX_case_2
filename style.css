@@ -198,6 +198,20 @@ p {
     height: auto;
 }
 
+/*****design*****/
+
+.moodboard {
+    width: 80vw;
+    text-align: center;
+    background-position: center;
+
+}
+
+.moodboard img {
+    height: 40vw;
+    width: auto;
+}
+
 /***** scrum *****/
 
 .scrum_content {
