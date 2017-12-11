@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -41,6 +42,32 @@ p {
     padding: 5vw;
 }
 
+/*****navigation*****/
+
+header {
+    position: fixed;
+    background: #389e9c;
+    width: 100vw;
+}
+
+header nav {
+    font-size: 1.2em;
+    text-align: right;
+    margin: 0 5vw 0 0;
+    color: navajowhite;
+    font-family: 'Lato', sans-serif;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header a:hover {
+    color: slateblue;
+}
+
 /*****splash*****/
 
 #splash {
@@ -49,7 +76,7 @@ p {
     background-repeat: no-repeat;
     height: 55vw;
     width: 75vw;
-    margin: 2vw 13vw;
+    margin: 2vw;
 }
 
 /****business****/
