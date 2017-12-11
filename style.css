@@ -19,6 +19,30 @@ p {
     font-size: 1em;
 }
 
+/*****problemstilling*****/
+
+#problemstilling {
+    background-color: #389e9c;
+    color: white;
+    padding: 5vw;
+}
+
+
+#mindmap {
+    background-color: #389e9c;
+    color: white;
+    padding: 5vw;
+}
+
+
+#expmap {
+    background-color: #389e9c;
+    color: white;
+    padding: 5vw;
+}
+
+/*****splash*****/
+
 #splash {
     background-image: url(images/Screen%20Shot%202017-12-06%20at%2011.47.45.png);
     background-size: 100%;
@@ -27,6 +51,8 @@ p {
     width: 75vw;
     margin: 2vw 13vw;
 }
+
+/****business****/
 
 #bmc_img {
     background-image: url(images/bmp.jpg);
@@ -87,6 +113,12 @@ p {
 
 /****persona****/
 
+#persona {
+    background-color: #389e9c;
+    color: white;
+    padding: 5vw;
+}
+
 .persona_content {
     display: flex;
     flex-wrap: wrap;
@@ -133,9 +165,15 @@ p {
 
 /**** storyboard*****/
 
+#storyboard {
+    background-color: #389e9c;
+    color: white;
+    padding: 5vw;
+}
+
 .storyboard_content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 2vw 5vw;
     justify-content: center;
     text-align: center;
@@ -149,8 +187,7 @@ p {
 }
 
 #storyboard img {
-    width: 100%;
-    height: auto;
+    height: 30vw;
 }
 
 .storyboard2 {
