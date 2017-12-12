@@ -20,6 +20,196 @@ p {
     font-size: 0.9em;
 }
 
+
+/* FORSIDE / AFLEVERINGSSITE */
+
+#splash {
+    margin: 0;
+    background-image: ;
+    background-size: 100%;
+    ;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 37vw;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 15vw 10vw 5vw;
+    text-align: center;
+    font-family: "DIN Condensed";
+    font-weight: lighter;
+    font-size: 7vw;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: "Open Sans Condensed";
+    margin: 0;
+    padding: 15px 0 0;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+#splash p {
+    padding-top: 5.5vw;
+    padding-bottom: 5.5vw;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container_splash {
+    padding: 0vw 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#flexbox_splash {
+    align-content: center;
+    flex-basis: 15vw;
+    height: 15vw;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.flexbox_splash1:hover {
+    background-color: whitesmoke;
+    background-image: url(img/benefits_img_1.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.flexbox_splash2:hover {
+    background-color: whitesmoke;
+    background-image: url(img/app_img.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.flexbox_splash3:hover {
+    background-color: whitesmoke;
+    background-image: url(img/pitch_img.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.flexbox_splash4:hover {
+    background-color: whitesmoke;
+    background-image: url(img/proces_img.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+
+h1 {
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    margin: 0;
+    padding: 55px 0 0 0;
+    text-decoration-line: overline;
+}
+
+#benefits {
+    margin: 0;
+    padding: 0;
+    padding-top: 4vw;
+    width: 100%;
+    height: 250px;
+    background-color: ;
+}
+
+#benefits h1 {
+    color: black;
+}
+
+#benefits p {
+    padding: 0 50px;
+    color: black;
+    font-family: "Open Sans Condensed";
+    text-align: center;
+}
+
+#app_link {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+
+#app_link p {
+    padding: 0 50;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    color: white;
+}
+
+#pitch_link {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+
+}
+
+#pitch_link h1 {
+    color: black;
+}
+
+#pitch_link p {
+    padding: 0 50px;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    color: white;
+}
+
+#procesdokumentation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+
+#procesdokumentation p {
+    padding: 0 50px;
+    text-align: center;
+    font-family: "verdana";
+
+}
+
+#procesdokumentation a {
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+#procesdokumentation a:hover {
+    color: cadetblue;
+    text-decoration: none;
+
+}
+
+
+#footer {
+    margin: 0 0 15px 0;
+    padding: 10px;
+    background-color: slategray;
+    color: ;
+    text-align: center;
+    font-family: "Open Sans Condensed";
+}
+
 /*****problemstilling*****/
 
 #problemstilling {
