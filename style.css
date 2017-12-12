@@ -16,50 +16,49 @@ h2 {
 
 p {
     text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 1em;
+    font-family: 'Verdana', sans-serif;
+    font-size: 0.9em;
 }
 
 /*****problemstilling*****/
 
 #problemstilling {
-    background-color: #389e9c;
+    background-color: black;
     color: white;
     padding: 5vw;
 }
 
 
-#mindmap {
-    background-color: #389e9c;
-    color: white;
-    padding: 5vw;
-}
+#mindmap {}
 
 
 #expmap {
-    background-color: #389e9c;
+    background-color: black;
     color: white;
     padding: 5vw;
+    text-align: center;
 }
 
 /*****navigation*****/
 
 header {
-    background: #389e9c;
+    background: black;
     width: 100vw;
 }
 
 header nav {
     font-size: 1.2em;
     text-align: right;
-    margin: 0 5vw 0 0;
+    margin: 0 5vw 0;
+    padding: 0.1vw;
     color: navajowhite;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 header nav a {
     text-decoration: none;
     color: white;
+    font-size: 0.9em;
 
 }
 
@@ -70,12 +69,11 @@ header a:hover {
 /*****splash*****/
 
 #splash {
-    background-image: url(images/Screen%20Shot%202017-12-06%20at%2011.47.45.png);
+    background-image: url(images/splash.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 55vw;
-    width: 75vw;
-    margin: 2vw;
+    height: 40vw;
+    width: 100vw;
 }
 
 /****business****/
@@ -87,16 +85,10 @@ header a:hover {
     height: 70vw;
     width: 75vw;
     margin: 5vw 13vw;
+
 }
 
-#expmap_img {
-    background-image: url(images/experience.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 40vw;
-    width: 40vw;
-    margin: 5vw 30vw;
-}
+#expmap img {}
 
 #mood_img {
     background-image: url(images/moodboard.jpg);
@@ -109,10 +101,17 @@ header a:hover {
 
 /****** brugerchart *****/
 
+#brugertest {
+    background-color: #adc0c8;
+    color: white;
+    text-align: center;
+}
+
 #brugerchart {
     display: flex;
     flex-wrap: wrap;
     margin: 2vw 5vw;
+
 }
 
 
@@ -122,8 +121,8 @@ header a:hover {
     flex-basis: 100px;
     flex-grow: 1;
 
-    height: 40vw;
-    width: 40vw;
+    height: 30vw;
+    width: 30vw;
     background-position: center;
 }
 
@@ -131,7 +130,7 @@ header a:hover {
     padding-top: 2vw;
     vertical-align: middle;
     width: 40vw;
-    height: auto;
+    height: 25vw;
 
 
 }
@@ -176,6 +175,7 @@ header a:hover {
     width: 40vw;
     flex-basis: 500px;
     flex-grow: 1;
+    margin-left: 2vw;
 
 
 }
@@ -192,8 +192,12 @@ header a:hover {
 /****** features ****/
 
 #features {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Verdana', sans-serif;
     font-size: 1em;
+    background-color: #e96e6b;
+    color: white;
+    padding: 5vw;
+
 
 }
 
@@ -204,7 +208,7 @@ header a:hover {
 /**** storyboard*****/
 
 #storyboard {
-    background-color: #389e9c;
+    background-color: #adc0c8;
     color: white;
     padding: 5vw;
 }
