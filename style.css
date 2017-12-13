@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 h1 {
@@ -78,6 +79,17 @@ h3 {
     justify-content: space-between;
     text-align: center;
 
+}
+
+#container_splash a {
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+
+
+#container_splash p {
+    margin-top: 6vw;
+    margin-bottom: 6vw;
 }
 
 #flexbox_splash {
@@ -214,12 +226,12 @@ h1 {
 
 
 #footer {
-    margin: 0 0 15px 0;
-    padding: 10px;
+    height: 3vw;
     background-color: black;
-    color: ;
+    color: white;
     text-align: center;
     font-family: "Verdana";
+
 }
 
 /*****problemstilling*****/
