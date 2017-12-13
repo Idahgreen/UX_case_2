@@ -13,6 +13,7 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'franklin gothic demi', sans-serif;
+    border-top: 2px solid
 }
 
 p {
@@ -60,8 +61,7 @@ h3 {
     font-family: 'Verdana';
     margin: 0;
     padding: 15px 0 0;
-    text-align: center;
-    font-weight: bolder;
+    text-align: left font-weight: bolder;
 
 }
 
@@ -473,10 +473,7 @@ header a:hover {
     height: 30vw;
 }
 
-.moodboard {
-    width: 80vw;
 
-}
 
 .appikon {
     display: flex;
@@ -492,6 +489,10 @@ header a:hover {
 .moodboard img {
     height: 40vw;
     width: auto;
+}
+
+.styletile img {
+    background-color: aliceblue;
 }
 
 /****** paint points ****/
@@ -525,6 +526,19 @@ header a:hover {
 
 
 
+/******prototype*****/
+
+#prototype_2 {
+    color: white;
+}
+
+.app_test_2 {
+    position: relative;
+    height: 800px;
+    right: 4vw;
+
+
+}
 
 
 
