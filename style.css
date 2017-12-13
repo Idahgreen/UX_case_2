@@ -510,12 +510,16 @@ header a:hover {
     margin: 2vw 5vw;
     justify-content: center;
     text-align: center;
+
 }
 
-.scrum {
-    width: 40vw;
-    flex-basis: 300px;
-    flex-grow: 1;
+#scrum {
+
+    color: black;
+    background-color: aliceblue;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+
 
 }
 
