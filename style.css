@@ -533,11 +533,17 @@ header a:hover {
 }
 
 .app_test_2 {
-    position: relative;
+    position: inherit;
     height: 800px;
     right: 4vw;
+    display: flex;
+    justify-content: center;
 
 
+}
+
+.video  {
+    margin: 2vw;
 }
 
 
@@ -547,7 +553,20 @@ header a:hover {
 #app_test {}
 
 #app_iframe {
-    position: absolute;
+    position: inherit;
     left: 40%;
     top: 4%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+
+/*** pitch ***/
+
+#pitch_video {
+    text-align: center;
+    color: white;
+    padding-top: 2vw;
 }
